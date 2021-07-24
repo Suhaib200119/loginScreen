@@ -30,6 +30,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+
   TextEditingController username=new TextEditingController();
   bool obscureText=true;
   TextEditingController password=new TextEditingController();
@@ -46,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
               Image.asset("assets/images/logo.png",height: 150,width: 150,),
               SizedBox(height: 10,),
               Card(
@@ -136,8 +139,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
+
             ],
+
           ),
+
+
         ),
       ),
     );
