@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               )
                           ),
                           keyboardType: TextInputType.visiblePassword,
-                          style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.blueAccent),
+                          style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold,color: Colors.blueAccent),
                           obscureText: obscureText,
                         ),
 
